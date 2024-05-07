@@ -111,8 +111,8 @@ const Page = () => {
           </Modal>
         </div>
       </main>
-      <footer className="row">
-        <div className="col presta">
+      <footer data-testid="footer-testid" className="row">
+        <div data-testid="presta-testid" className="col presta">
           <h3>Notre derniére prestation</h3>
           {last && <EventCard
             imageSrc={last.cover}
